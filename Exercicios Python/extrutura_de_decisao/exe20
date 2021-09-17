@@ -1,0 +1,11 @@
+nota1 = float(input("\t"))
+nota2 = float(input("\t"))
+nota3 = float(input("\t"))
+
+media = (nota1 + nota2 + nota3) / 3
+if media < 7:
+     print("REPROVADO")
+elif media >= 7 and media != 10:
+        print("APROVADO")
+elif media == 10:
+    print("APROVADO COM A PIROCA TORTA")
